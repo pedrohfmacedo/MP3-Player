@@ -1,0 +1,124 @@
+xrun: 20.09-s003: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun	20.09-s003: Started on Apr 24, 2024 at 14:06:11 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+	Top level design units:
+		testbench_ADPCMD
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+Loading snapshot worklib.testbench_ADPCMD:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /xcelium20.09/tools/xcelium/files/xmsimrc
+xcelium> run
+duvida sobre o arquivo.wav
+*------------S T A R T------------*
+Time =  0, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =  1, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =  2, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =  3, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =  4, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =  5, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =  6, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =  7, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =  8, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =  9, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 10, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 11, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 12, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 13, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 14, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 15, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 16, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 17, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 18, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 19, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 20, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 21, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 22, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 23, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 24, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 25, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 26, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 27, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 28, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 29, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 30, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 31, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 32, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 33, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 34, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 35, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 36, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 37, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 38, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 39, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 40, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 41, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 42, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 43, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 44, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 45, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 46, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 47, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 48, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 49, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 50, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 51, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 52, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 53, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 54, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 55, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 56, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 57, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 58, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 59, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 60, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 61, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 62, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 63, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 64, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 65, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 66, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 67, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 68, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 69, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 70, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 71, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 72, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 73, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 74, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 75, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 76, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 77, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 78, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 79, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 80, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 81, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 82, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 83, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 84, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 85, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 86, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 87, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 88, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 89, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 90, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 91, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 92, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 93, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 94, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 95, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 96, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 97, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 98, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time = 99, clk=1 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Time =100, clk=0 , nrst =x, sop=x, eop=x, input=xxxx out=xxxxxxxxxxxxxxxx
+Simulation complete via $finish(1) at time 500 NS + 0
+./testbench.sv:37     	#500 $finish;
+xcelium> exit
+TOOL:	xrun	20.09-s003: Exiting on Apr 24, 2024 at 14:06:13 EDT  (total: 00:00:02)

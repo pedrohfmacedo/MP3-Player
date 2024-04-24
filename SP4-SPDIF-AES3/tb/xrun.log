@@ -1,0 +1,41 @@
+xrun: 20.09-s003: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun	20.09-s003: Started on Apr 24, 2024 at 14:09:35 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+	Top level design units:
+		SPDIF_tb
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+Loading snapshot worklib.SPDIF_tb:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /xcelium20.09/tools/xcelium/files/xmsimrc
+xcelium> run
+TIME:0, CLK2F= 0:, CLK1F:0, DATA_IN:1, DATA_OUT:0.
+TIME:1, CLK2F= 1:, CLK1F:1, DATA_IN:1, DATA_OUT:0.
+TIME:2, CLK2F= 1:, CLK1F:0, DATA_IN:1, DATA_OUT:0.
+TIME:3, CLK2F= 0:, CLK1F:1, DATA_IN:1, DATA_OUT:1.
+TIME:4, CLK2F= 0:, CLK1F:0, DATA_IN:1, DATA_OUT:1.
+TIME:4, CLK2F= 0:, CLK1F:0, DATA_IN:0, DATA_OUT:1.
+TIME:5, CLK2F= 1:, CLK1F:1, DATA_IN:0, DATA_OUT:0.
+TIME:5, CLK2F= 1:, CLK1F:1, DATA_IN:1, DATA_OUT:1.
+TIME:6, CLK2F= 1:, CLK1F:0, DATA_IN:1, DATA_OUT:1.
+TIME:6, CLK2F= 1:, CLK1F:0, DATA_IN:0, DATA_OUT:1.
+TIME:7, CLK2F= 0:, CLK1F:1, DATA_IN:0, DATA_OUT:0.
+TIME:8, CLK2F= 0:, CLK1F:0, DATA_IN:0, DATA_OUT:0.
+TIME:9, CLK2F= 1:, CLK1F:1, DATA_IN:0, DATA_OUT:1.
+TIME:10, CLK2F= 1:, CLK1F:0, DATA_IN:0, DATA_OUT:1.
+TIME:10, CLK2F= 1:, CLK1F:0, DATA_IN:1, DATA_OUT:1.
+TIME:11, CLK2F= 0:, CLK1F:1, DATA_IN:1, DATA_OUT:0.
+TIME:12, CLK2F= 0:, CLK1F:0, DATA_IN:1, DATA_OUT:0.
+TIME:13, CLK2F= 1:, CLK1F:1, DATA_IN:1, DATA_OUT:0.
+TIME:14, CLK2F= 1:, CLK1F:0, DATA_IN:1, DATA_OUT:0.
+TIME:15, CLK2F= 0:, CLK1F:1, DATA_IN:1, DATA_OUT:1.
+Simulation complete via $finish(1) at time 25100 PS + 0
+./testbench.sv:51 		# 15 $finish;
+xcelium> exit
+TOOL:	xrun	20.09-s003: Exiting on Apr 24, 2024 at 14:09:36 EDT  (total: 00:00:01)

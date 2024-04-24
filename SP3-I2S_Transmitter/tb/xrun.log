@@ -1,0 +1,126 @@
+xrun: 20.09-s003: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun	20.09-s003: Started on Apr 24, 2024 at 14:01:13 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+	Top level design units:
+		i2s_tb
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+    .Tx(Tx),
+         |
+xmelab: *W,CUVMPW (./testbench.sv,18|9): port sizes differ in port connection(32/16) for the instance(i2s_tb) .
+Loading snapshot worklib.i2s_tb:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /xcelium20.09/tools/xcelium/files/xmsimrc
+xcelium> run
+Time= 0:, ready:0, SCLK:0, WS:0, SD:0.
+Time= 1:, ready:0, SCLK:1, WS:0, SD:0.
+Time= 2:, ready:0, SCLK:0, WS:0, SD:0.
+Time= 3:, ready:1, SCLK:1, WS:0, SD:0.
+Time= 4:, ready:1, SCLK:0, WS:0, SD:0.
+Time= 5:, ready:1, SCLK:1, WS:0, SD:1.
+Time= 6:, ready:1, SCLK:0, WS:0, SD:1.
+Time= 7:, ready:1, SCLK:1, WS:0, SD:1.
+Time= 8:, ready:1, SCLK:0, WS:0, SD:1.
+Time= 9:, ready:1, SCLK:1, WS:0, SD:0.
+Time= 10:, ready:1, SCLK:0, WS:0, SD:0.
+Time= 11:, ready:1, SCLK:1, WS:0, SD:0.
+Time= 12:, ready:1, SCLK:0, WS:0, SD:0.
+Time= 13:, ready:1, SCLK:1, WS:0, SD:0.
+Time= 14:, ready:1, SCLK:0, WS:0, SD:0.
+Time= 15:, ready:1, SCLK:1, WS:0, SD:0.
+Time= 16:, ready:1, SCLK:0, WS:0, SD:0.
+Time= 17:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 18:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 19:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 20:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 21:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 22:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 23:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 24:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 25:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 26:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 27:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 28:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 29:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 30:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 31:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 32:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 33:, ready:1, SCLK:1, WS:1, SD:1.
+Time= 34:, ready:1, SCLK:0, WS:1, SD:1.
+Time= 35:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 36:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 37:, ready:1, SCLK:1, WS:1, SD:1.
+Time= 38:, ready:1, SCLK:0, WS:1, SD:1.
+Time= 39:, ready:1, SCLK:1, WS:1, SD:1.
+Time= 40:, ready:1, SCLK:0, WS:1, SD:1.
+Time= 41:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 42:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 43:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 44:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 45:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 46:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 47:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 48:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 49:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 50:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 51:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 52:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 53:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 54:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 55:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 56:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 57:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 58:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 59:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 60:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 61:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 62:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 63:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 64:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 65:, ready:1, SCLK:1, WS:1, SD:1.
+Time= 66:, ready:1, SCLK:0, WS:1, SD:1.
+Time= 67:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 68:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 69:, ready:1, SCLK:1, WS:1, SD:1.
+Time= 70:, ready:1, SCLK:0, WS:1, SD:1.
+Time= 71:, ready:1, SCLK:1, WS:1, SD:1.
+Time= 72:, ready:1, SCLK:0, WS:1, SD:1.
+Time= 73:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 74:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 75:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 76:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 77:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 78:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 79:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 80:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 81:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 82:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 83:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 84:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 85:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 86:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 87:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 88:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 89:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 90:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 91:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 92:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 93:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 94:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 95:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 96:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 97:, ready:1, SCLK:1, WS:1, SD:1.
+Time= 98:, ready:1, SCLK:0, WS:1, SD:1.
+Time= 99:, ready:1, SCLK:1, WS:1, SD:0.
+Time= 100:, ready:1, SCLK:0, WS:1, SD:0.
+Time= 101:, ready:1, SCLK:1, WS:1, SD:1.
+Simulation complete via $finish(1) at time 102 NS + 0
+./testbench.sv:39     #100 $finish;
+xcelium> exit
+TOOL:	xrun	20.09-s003: Exiting on Apr 24, 2024 at 14:01:14 EDT  (total: 00:00:01)

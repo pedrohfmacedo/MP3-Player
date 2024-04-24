@@ -1,0 +1,86 @@
+$date
+    Apr 24, 2024  14:09:36
+$end
+$version
+    TOOL:	xmsim	20.09-s003
+$end
+$timescale
+    1 ps
+$end
+
+$scope module SPDIF_tb $end
+$var parameter 32 !    WIDTH $end
+$var reg       1 "    out $end
+$var reg       1 #    clk1 $end
+$var reg       1 $    nrst $end
+$var reg       1 %    dataDMC $end
+$var reg       1 &    clk2 $end
+$var reg       1 '    data $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b10000 !
+x"
+0#
+0$
+0%
+0&
+1'
+$end
+#100
+1$
+#1000
+1#
+1&
+#2000
+0#
+#3000
+1#
+0&
+1%
+#4000
+0#
+#4100
+0'
+#5000
+1#
+1&
+0%
+#5100
+1'
+1%
+#6000
+0#
+#6100
+0'
+#7000
+1#
+0&
+0%
+#8000
+0#
+#9000
+1#
+1&
+1%
+#10000
+0#
+#10100
+1'
+#11000
+1#
+0&
+0%
+#12000
+0#
+#13000
+1#
+1&
+#14000
+0#
+#15000
+1#
+0&
+1%
+#25100
